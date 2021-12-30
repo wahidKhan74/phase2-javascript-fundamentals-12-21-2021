@@ -27,7 +27,6 @@ let productFilter = function (products) {
 }
 
 // display products
-
 getProducts().then(function(data) {
     console.log("All Products", data);
     return productFilter(data);
